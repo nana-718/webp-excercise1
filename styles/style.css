@@ -22,9 +22,7 @@ html {
   }
 
   body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #008BBB
+    background-image: url(images/background.png);
   }
 
 
