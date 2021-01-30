@@ -1,25 +1,74 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <meta charset="utf-8"/>
-    <title>My test page</title>
-  </head>
-  <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="My test image"/>
-    
-    <p>At Mozilla, we’re a global community of</p>  
-<ul> 
-  <li>technologists</li>
-  <li>thinkers</li>
-  <li>builders</li>
-</ul>
+<!doctype html>
+<html lang="en">
 
-<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future. </p>
-<p>Read the<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>to learn even more about the values and principles that guide the pursuit of our mission.</p>
-<button>ユーザを変更</button>
-<script src="scripts/main.js"></script> 
-</body>
-</html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Formatting a biography</title>
+        <style>
+          body {
+            background-color: #fff;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1em;
+            margin: 0;
+          }
+    
+          h1 {
+            color: rgb(150, 76, 88);
+            font-size: 4em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border-bottom: 10px ridge rgba(193, 160, 207, 0.6);
+          }
+    
+          h2 {
+            font-family: system-ui; 
+            font-size: 1.5em;
+          }
+    
+          .job-title {
+            color: rgb(146, 113, 113);
+            font-size: 1.5em;
+            font-weight: bold;
+          }
+    
+          a:link,
+          a:visited {
+             
+            color: #fb6542;
+          }
+    
+          a:hover {
+            color: rgb(83, 83, 216);
+          }
+          ul{
+            background-color: #eeeeee;
+            border:5px solid;
+            border-color: slateblue;
+            padding: 1.5em;
+          }
+        </style>
+      </head>
+
+  <body>
+
+    <h1>Jane Doe</h1>
+    <div class="job-title">Web Developer</div>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+    </p>
+
+    <h2>Contact information</h2>
+    <ul>
+      <li>Email:
+        <a href="mailto:jane@example.com">jane@example.com</a>
+      </li>
+      <li>Web:
+        <a href="http://example.com">http://example.com</a>
+      </li>
+      <li>Tel: 123 45678</li>
+    </ul>
+
+  </body>
+
+</html>
